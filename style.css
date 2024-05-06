@@ -1,0 +1,58 @@
+body {
+    background-color: #e0f7fa;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 420px;
+    background-color: #263238;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid div {
+    border: solid #37474f 3px;
+    width: 100px;
+    height: 100px;
+    background-color: #78909c;
+    color: #eceff1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+.scoreContainer {
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 34px;
+    color: #102027;
+}
+
+.header {
+    font-size: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #546e7a;
+}
+
+.instructions {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 18px;
+    color: #455a64;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #102027;
+}
